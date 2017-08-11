@@ -1,0 +1,132 @@
+body {
+    background-image: url('img/bg2.jpg');
+    color: #000305;
+    font-size: 87.5%;
+    font-family: Arial, 'Lucida Sans Unicode';
+    line-height: 1.5;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+
+}
+
+a:hover, a:active {
+
+}
+
+.body {
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+}
+
+.main-header {
+    /* width: 30%; */
+    height: auto;
+    margin: 2% 0;
+}
+
+.main-header nav {
+    background-color: #666;
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.main-header nav ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.main-header nav ul li {
+    float: left;
+    display: inline;
+}
+
+.main-header nav a:link, .main-header nav a:visited {
+    color: #FFF;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+}
+
+.main-header nav a:hover, .main-header nav a:active, 
+.main-header nav .active a:link, .main-header nav .active a:visited {
+    background-color: #CF5C3F;
+    text-shadow: none;
+}
+
+.main-header nav ul li a {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.main-content {
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.content {
+    width: 70%;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.topcontent {
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-top: 2%;
+    padding: 3% 5%;
+}
+
+.bottomcontent {
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-top: 2%;
+    padding: 3% 5%;
+}
+
+.top-sidebard {
+    width: 27%;
+    float: left;
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 2% 3%;
+}
+
+.middle-sidebard {
+    width: 27%;
+    float: left;
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 2% 3%;
+}
+
+.bottom-sidebard {
+    width: 27%;
+    float: left;
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+}
