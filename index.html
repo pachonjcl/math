@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Matematica</title>
+    <title>Teoria de Numeros</title>
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
     </script>
@@ -18,46 +18,74 @@
         <img src="img/logo.jpg">
         <nav>
             <ul>
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About</a></li>
+                <li class="active">
+                    <a href="#temas">Temas</a>
+                </li>
+                <li>
+                    <a href="#">Ejercicios</a>
+                </li>
             </ul>
         </nav>
     </header>
     <div class="main-content">
         <div class="content">
-            <article class="topcontent">
-                <header>
+            <article class="top-content">
+                <header class="header-title">
                     <h2>
-                        <a href="#" title="First Post"></a>
+                        <a href="#temas" title="Temas">Temas</a>
                     </h2>
                 </header>
                 <footer>
                     <p class="post-info">
-                        Este es un articulo matematico
+                        Temas de Teoria de Numeros
                     </p>
                 </footer>
                 <content>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <ol>
+                        <li>Números primos
+                            <ol>
+                                <li>Factorización de números primos</li>
+                                <li>La criba de Eratosthenes</li>
+                            </ol>
+                        </li>
+                        <li>Minimo comun multiplo y Maximo comun divisor</li>
+                        <li>Función de Euler</li>
+                        <li>Pequeno Teorema de Fermat</li>
+                        <li>Función de Mobius</li>
+                        <li>Aritmetica modular</li>
+                        <li>Teorema de resto chino</li>
+                    </ol>
                     </p>
                 </content>
             </article>
-            <article class="bottomcontent">
-                <header>
+            <article class="bottom-content">
+                <header class="header-title">
                     <h2>
-                        <a href="#" title="Second Post">Second Post</a>
+                        <a href="#" title="Aritmetica Modular">Aritmetica Modular</a>
                     </h2>
                 </header>
                 <footer>
                     <p class="post-info">
-                        Este es un articulo matematico
+                        La artimetica modular
                     </p>
                 </footer>
                 <content>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        La aritmética modular puede ser construida matemáticamente 
+                        mediante la relación de congruencia entre enteros, 
+                        que es compatible con las operaciones en el anillo de enteros: 
+                        suma y multiplicación. 
+                        Para un determinado módulo n, ésta se define de la siguiente manera:
+                        <br/>
+                        Esta relación se puede expresar cómodamente utilizando la notación de Gauss:
+                        <div class="box">
+                            a y b se encuentran en la misma "clase de congruencia" 
+                            módulo n, si ambos dejan el mismo resto si los dividimos entre n,
+                             o, equivalentemente, si a − b es un múltiplo de n.
+                        </div>
+                        <br/>
+                        $a \equiv r (\mod n)$
                     </p>
                 </content>
             </article>
@@ -65,24 +93,39 @@
     </div>
     <aside class="top-sidebard">
         <article>
-            <h2>Top Sidebard</h2>
-            <p>Lorem ipsum dolor sit amet,occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2>Números primos</h2>
+            <p>
+                <ul>
+                    <li>Factorización de números primos</li>
+                    <li>La criba de Eratosthenes</li>
+                </ul>
+            </p>
         </article>
     </aside>
-
+ 
     <aside class="middle-sidebard">
         <article>
-            <h2>Middle Sidebard</h2>
-            <p>Lorem ipsum dolor sit amet,occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2>Minimo comun multiplo y Maximo comun divisor</h2>
+            <p>
+                <ul>
+                    <li>El mínimo común múltiplo de dos o más números es el menor número que es múltiplo común de todos ellos</li>
+                    <li>El máximo común divisor de dos o más números al mayor número que los divide sin dejar resto.</li>
+                </ul>
+            </p>
         </article>
     </aside>
 
     <aside class="bottom-sidebard">
         <article>
-            <h2>Bottom Sidebard</h2>
-            <p>Lorem ipsum dolor sit amet,occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2>Aritmetica Modular</h2>
+            <p>
+                La aritmética modular es un sistema aritmético para clases de equivalencia 
+                de números enteros. 
+                Construida matemáticamente mediante la relación de congruencia entre enteros,
+                con las operaciones en el anillo de enteros: suma y multiplicación.
+            </p>
         </article>
-    </aside>
+    </aside> 
 
     <footer class="main-footer">
         <p>

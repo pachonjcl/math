@@ -1,6 +1,7 @@
 body {
-    background-image: url('img/bg2.jpg');
-    color: #000305;
+     background-image: url('img/bg2.jpg');         
+    /* background-color: #000; */
+    color: #000;/*#000305;*/
     font-size: 87.5%;
     font-family: Arial, 'Lucida Sans Unicode';
     line-height: 1.5;
@@ -26,9 +27,26 @@ a:hover, a:active {
 }
 
 .main-header {
-    /* width: 30%; */
+    width: 70%;
     height: auto;
-    margin: 2% 0;
+    margin: 2% 0 0;
+
+}
+
+.main-footer {
+    display: block;
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-style: solid;
+    padding: 2% 2%;
+}
+
+.main-header img {
+    width: 40px;
+    height: 40px;
+    float: left;
 }
 
 .main-header nav {
@@ -45,8 +63,8 @@ a:hover, a:active {
 }
 
 .main-header nav ul li {
-    float: left;
     display: inline;
+    float: left;
 }
 
 .main-header nav a:link, .main-header nav a:visited {
@@ -75,6 +93,10 @@ a:hover, a:active {
     -webkit-border-radius: 5px;
 }
 
+.header-title {
+    border-bottom-style: solid;
+}
+
 .content {
     width: 70%;
     float: left;
@@ -83,50 +105,62 @@ a:hover, a:active {
     -webkit-border-radius: 5px;
 }
 
-.topcontent {
+.top-content {
     background-color: #FFF;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     margin-top: 2%;
-    padding: 3% 5%;
+    padding: 3% 5% 0%;
+    border-style: solid;
 }
 
-.bottomcontent {
+.bottom-content {
     background-color: #FFF;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     margin-top: 2%;
-    padding: 3% 5%;
+    padding: 0% 5% 3%;
+    border-style: solid;
 }
 
 .top-sidebard {
-    width: 27%;
-    float: left;
+    width: 24%;
+    float: left; 
     background-color: #FFF;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    padding: 2% 3%;
+    padding: 2% 2%;
 }
 
 .middle-sidebard {
-    width: 27%;
+    width: 24%;
     float: left;
     background-color: #FFF;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    padding: 2% 3%;
+    padding: 2% 2%;
 }
 
 .bottom-sidebard {
-    width: 27%;
+    width: 24%;
     float: left;
     background-color: #FFF;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    
+    padding: 2% 2%;
+}
+
+.box {
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+}
+
+aside {
+    border-style: solid;
 }
