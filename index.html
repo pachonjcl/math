@@ -6,11 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Teoria de Numeros</title>
     <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
     </script>
-    <script type="text/javascript"
-    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'></script>
     <link rel="stylesheet" href="estilos.css" type="text/css">
 </head>
 <body class="body">
@@ -43,7 +41,8 @@
                 <content>
                     <p>
                     <ol>
-                        <li>Números primos
+                        <li>
+                            <a href="primos.html"> Números primos </a>
                             <ol>
                                 <li>Factorización de números primos</li>
                                 <li>La criba de Eratosthenes</li>
@@ -85,7 +84,7 @@
                              o, equivalentemente, si a − b es un múltiplo de n.
                         </div>
                         <br/>
-                        $a \equiv r (\mod n)$
+                        $ a \equiv b (\mod n) $
                     </p>
                 </content>
             </article>
@@ -132,24 +131,5 @@
             Copyright &copy; 2017 <a href="#" title="Jose Carlos Laura Ramirez">Jose Carlos Laura Ramirez</a>
         </p>
     </footer>
-
-    <!-- <h2>Math in TeX notation</h2>
-
-    When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
-    $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
-    $$ \begin{array}{rcll}
-    y & = & x^{2}+bx+c\\
-    & = & x^{2}+2\times\dfrac{b}{2}x+c\\
-    & = & \underbrace{x^{2}+2\times\dfrac{b}{2}x+\left(\frac{b}{2}\right)^{2}}-
-        {\left(\dfrac{b}{2}\right)^{2}+c}\\
-    &  & \qquad\left(x+{\dfrac{b}{2}}\right)^{2}\\
-    & = & \left(x+\dfrac{b}{2}\right)^{2}-\left(\dfrac{b}{2}\right)^{2}+c 
-    & \left|+\left({\dfrac{b}{2}}\right)^{2}-c\right.\\
-        y+\left(\dfrac{b}{2}\right)^{2}-c & = & \left(x+
-        \dfrac{b}{2}\right)^{2} & \left|\strut(\textrm{vertex form})\right.\\
-    y-y_{S} & = & (x-x_{S})^{2}\\
-    S(x_{S};y_{S}) & \,\textrm{or}\, 
-        & S\left(-\dfrac{b}{2};\,\left(\dfrac{b}{2}\right)^{2}-c\right)
-    \end{array} $$ -->
 </body>
 </html>
